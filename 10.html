@@ -10,6 +10,7 @@
     Add a New Item:
     <input type="text" ng-model="newItem"/>
     <button ng-click="addItem()">Add Item</button>
+    
     <ul>
         <li ng-repeat="item in items track by $index">{{ item }}
             <button ng-click="removeItem()">Remove</button>
